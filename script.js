@@ -16,3 +16,5 @@ async function afficherBlague() {
         container.textContent = "Erreur lors du chargement de la blague.";
       }
     }
+
+    afficherBlague();
