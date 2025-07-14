@@ -1,4 +1,4 @@
-# Carambar - Blagues landing page & API
+# Blagues Carambar : landing page & API
 
 Ce projet propose une API de blagues Carambar (Node.js/Express/SQLite) et un front simple (HTML/JS/CSS) pour afficher des blagues aléatoires.
 
@@ -21,12 +21,9 @@ Ce projet propose une API de blagues Carambar (Node.js/Express/SQLite) et un fro
 
 ### Backend
 
-- repo disponible à l’adresse :  
-  `https://github.com/anacslr/carambar_project_back`
-- API disponible à l’adresse :  
-  `https://carambar-project-back.onrender.com/api/v1/blagues/random`
-- Documentation Swagger :  
-  `https://carambar-project-back.onrender.com/api-docs`
+- repo disponible [ici](https://github.com/anacslr/carambar_project_back)
+- API disponible [ici](https://carambar-project-back.onrender.com/api/v1/blagues/)  
+- Documentation Swagger [ici](https://carambar-project-back.onrender.com/api-docs)
 
 #### Liste des endpoints
 

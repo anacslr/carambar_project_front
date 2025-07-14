@@ -6,12 +6,17 @@
     <title>Blagues carambar</title>
     <link rel="stylesheet" href="style.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Baloo+2:wght@400..800&family=Bangers&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Baloo+2:wght@400..800&family=Bangers&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+    />
 </head>
 <body>
+    <nav>
+        <img src="/client/images/imageNav.png" alt="carambar et logo">
+    </nav>
     <h1>La blague du jour</h1>
-    <div class="blague-container" id="blague">en attente de la blague...</div>
+    <div class="blague-container animate__animated animate__flipInX animate__slow" id="blague">en attente de la blague...</div>
    <button onclick="afficherBlague()">Nouvelle blague</button>
    <script src="script.js"></script>
 </body>
