@@ -8,7 +8,11 @@ async function afficherBlague() {
 
           if (data && data.question && data.answer) {
             container.innerHTML = `<strong>${data.question}</strong><br>${data.answer}`;
-            container.classList.add('animate__animated', 'animate__flipInX', 'animate__slow')
+            container.classList.remove('animate__animated', 'animate__flipInX', 'animate__slow');
+            requestAnimationFrame(() => {
+            container.classList.add('animate__animated', 'animate__flipInX', 'animate__slow')  
+            });
+            
 
           } else {
             container.textContent = "Oops ! Aucune blague trouvée.";
@@ -20,3 +24,6 @@ async function afficherBlague() {
     }
 
     afficherBlague();
+
+
+    
